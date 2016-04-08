@@ -17,7 +17,7 @@ struct MyStructWithArray
 	std::array<MyStructWithinArray, 8> nestedArray;
 };
 
-MyStructWithinArray demo{
+MyStructWithArray demo{
 	std::array<MyStructWithinArray, 8> {
 		{ 1, 1 },
 		{ 2, 2 },
